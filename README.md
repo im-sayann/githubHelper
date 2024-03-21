@@ -1,8 +1,12 @@
-# This is a readme file on localrepo
+# This is a readme file on Feature branch
 <br>
 Author - Sayan Das
 <br>
-Steps to push a file
+# To change name of the branch to (master to main)
+<br>
+git branch -M main
+<br>
+# Steps to push a file
 <br>
 1.make a new file
 <br>
