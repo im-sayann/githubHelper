@@ -1,0 +1,29 @@
+# Steps to push a file
+
+# Make a new file
+
+# Adding file for commit
+1.git add .
+
+# Commiting the file
+2.git commit -m "Some name"
+
+# Select the location to push (type -u once then for the same repo just need git push)
+3.git push -u origin main
+
+
+
+# Cheking which branch we are in 
+git branch
+
+# To change name of the branch to (master to main)
+git branch -M main
+
+# To create branch 
+git checkout -b branch2
+
+# To change the branch we are in 
+git checkout branch1
+
+#To delete branch
+git branch -d (branch name)
