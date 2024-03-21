@@ -1,43 +1,57 @@
 # To clone a file 
-git clone (file link)
+    git clone (file link)
 
 # Steps to push a file
 
 # Make a new file
 
 # Adding file for commit
-1.git add .
+    1.git add .
 
 # Commiting the file
-2.git commit -m "Some name"
+    2.git commit -m "Some name"
 
 # Select the location to push (type -u once then for the same repo just need git push)
-3.git push -u origin main
+    3.git push -u origin main
 
 
 
 # Cheking which branch we are in 
-git branch
+    git branch
 
 # To change name of the branch to (master to main)
-git branch -M main
+    git branch -M main
 
 # To create branch 
-git checkout -b branch2
+    git checkout -b branch2
 
 # To change the branch we are in 
-git checkout branch1
+    git checkout branch1
 
 #To delete branch
-git branch -d (branch name)
+    git branch -d (branch name)
 
 # Differences between two branches
-git diff (branch name) 
+    git diff (branch name) 
 
 # Merge branch
-git merge (branch name)
+    git merge (branch name)
 
 #Pull command (used to fetch and download content from a remote repo and updates the local repo to match that content)
-git pull origin main
+    git pull origin main
 
-#Resolving merge 
+# To check commit 
+    git log
+
+
+# Undoing changes
+Case1 - staged changes (add .)
+    git reset (file name)
+    git reset - [for multiple files]
+
+Case2 - commited changes (for one commit)
+    get reset HEAD~1
+
+Case3 - commited multiple changes(for many commits) (hash can be found on git log)
+    git reset <-commit hash-> 
+    git reset --hard <-commit hash-> (for unmodified changes)
