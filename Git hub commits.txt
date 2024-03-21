@@ -16,6 +16,7 @@
 
 
 
+
 # Cheking which branch we are in 
     git branch
 
@@ -42,6 +43,9 @@
 
 # To check commit 
     git log
+
+
+
 
 
 # Undoing changes
