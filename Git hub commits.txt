@@ -1,3 +1,6 @@
+# To clone a file 
+git clone (file link)
+
 # Steps to push a file
 
 # Make a new file
