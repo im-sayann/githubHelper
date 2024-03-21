@@ -39,3 +39,5 @@ git merge (branch name)
 
 #Pull command (used to fetch and download content from a remote repo and updates the local repo to match that content)
 git pull origin main
+
+#Resolving merge 
