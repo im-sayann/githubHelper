@@ -1,9 +1,27 @@
+# if github configed then ignore(check with <- git config --list -> configed or not)
+    git config --global user.name "User Name"
+    git config --global user.email "someone@gmail.com"
+    git config --list
+
+
+
+
+# To initialize a file 
+    git init 
+
 # To clone a file 
     git clone (file link)
 
+
+
+
 # Steps to push a file
 
-# Make a new file
+# Make a new repo on github
+     clone it to local repo. Then move files to push in the local repo
+
+# Check file status
+    git status
 
 # Adding file for commit
     1.git add .
@@ -13,6 +31,7 @@
 
 # Select the location to push (type -u once then for the same repo just need git push)
     3.git push -u origin main
+
 
 
 
@@ -43,6 +62,7 @@
 
 # To check commit 
     git log
+
 
 
 
