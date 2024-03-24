@@ -55,27 +55,4 @@
     git diff (branch name) 
 
 # Merge branch
-    git merge (branch name)
-
-#Pull command (used to fetch and download content from a remote repo and updates the local repo to match that content)
-    git pull origin main
-
-# To check commit 
-    git log
-
-
-
-
-
-
-# Undoing changes
-Case1 - staged changes (add .)
-    git reset (file name)
-    git reset - [for multiple files]
-
-Case2 - commited changes (for one commit)
-    get reset HEAD~1
-
-Case3 - commited multiple changes(for many commits) (hash can be found on git log)
-    git reset <-commit hash-> 
-    git reset --hard <-commit hash-> (for unmodified changes)
+git merge (branch name)
